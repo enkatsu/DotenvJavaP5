@@ -3,6 +3,8 @@
 DotenvP5 is a library for Processing that loads environment variables from `.env` files.
 This is based on [java-dotenv](https://github.com/cdimascio/dotenv-java).
 
+[JavaDoc](https://enkatsu.github.io/DotenvP5/javadoc)
+
 ## Usage
 
 ### `.env`
