@@ -12,7 +12,7 @@ sourceCompatibility = 1.8
 rootProject.version=''
 buildDir='library'
 libsDirName='./'
-docsDirName='../reference'
+docsDirName='../docs'
 
 repositories {
     mavenCentral()
@@ -28,13 +28,14 @@ shadowJar {
    archiveVersion.set('')
 }
 
+configurations {
+    provided
+}
+
 javadoc {
     options.charSet = 'UTF-8'
     options.encoding = 'UTF-8'
-}
-
-configurations {
-    provided
+    classpath += configurations.provided
 }
 
 sourceSets {
