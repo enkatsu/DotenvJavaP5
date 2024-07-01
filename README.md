@@ -38,6 +38,15 @@ void draw() {
 }
 ```
 
+## Build
+
+```sh
+# Clean & Build
+./gradlew
+# Build JavaDoc
+./gradlew javaDoc
+```
+
 ## License
 
 MIT License
