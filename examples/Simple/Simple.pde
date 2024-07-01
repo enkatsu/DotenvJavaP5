@@ -1,19 +1,3 @@
-# dotenv-p5
-
-dotenv-p5 is a library for Processing that loads environment variables from `.env` files.
-This is based on [java-dotenv](https://github.com/cdimascio/dotenv-java).
-
-## Usage
-
-### `.env`
-
-```env
-HELLO=DOTENVP5
-```
-
-### Processing sketch
-
-```pde
 import org.enkatsu.dotenvp5.*;
 
 DotenvP5 dotenv;
@@ -34,8 +18,3 @@ void setup() {
 
 void draw() {
 }
-```
-
-## License
-
-MIT License
